@@ -1,7 +1,7 @@
 # ezbs64
 https://github.com/siriusjbk/ezbs64
 email:siriusjbk@gmail.com
-version:1.1
+version:1.1.231106
 
 bs64 사용을 사이트에서 인코딩 디코딩 하는것 보다 빠르게 하기 위해 제작했음
 귀찮아서 개빠르게 코딩한거라 문제 많음
