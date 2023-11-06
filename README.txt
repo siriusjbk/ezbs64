@@ -14,12 +14,20 @@ version pack (버젼 업데이트 내용도 들어있음)
 https://drive.google.com/drive/folders/1Y7gvNdpNJl7LIRB-Axb01sKaPcsviXl6?usp=drive_link
 
 email:siriusjbk@gmail.com
-version:1.1.231106
+version:1.2.231107
 
 bs64 사용을 사이트에서 인코딩 디코딩 하는것 보다 빠르게 하기 위해 제작했음
 귀찮아서 개빠르게 코딩한거라 문제 많음
 
+#UI
+윈도우창 하단의 인풋창에 문자열 입력가능
+윈도우창 오른쪽 상단의 닫기버튼을 누를경우 자동으로 아이콘 숨기기 표시됨
+끄는 방법은 숨겨진 아이콘 표시 아이콘을 누른 후 ezbs64.exe 를 우클릭 후 Quit 을 누르면됨
+만약 다시 ezbs64창을 키고싶은 경우엔 숨겨진 아이콘 표시 아이콘 클릭후 ezbs64.exe를 우클릭, Show 버튼 혹은
+숨겨진 아이콘 표시 아이콘 클릭후 ezbs64.exe를 더블클릭
 
+
+#auto
 ctrl + c 를 할경우 자동으로 클립보드의 데이터를 디코딩 한후 클립보드에 저장합니다.
 #clipboard : dGVzdA==
 #pause ctrl + c
@@ -35,6 +43,7 @@ auto copy is off
 #clipboard : dGVzdA==
 
 
+#manual
 엔터만 누를시 클립보드 내용이 자동으로 디코딩 된후 결과값이 복사됩니다.
 ex)
 #clipboard : dGVzdA==
