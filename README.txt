@@ -10,7 +10,7 @@ ______________     ______________     ______________     ______________     ____
 github
 https://github.com/siriusjbk/ezbs64
 
-version pack
+version pack (버젼 업데이트 내용도 들어있음)
 https://drive.google.com/drive/folders/1Y7gvNdpNJl7LIRB-Axb01sKaPcsviXl6?usp=drive_link
 
 email:siriusjbk@gmail.com
