@@ -7,7 +7,12 @@
 ______________     ______________     ______________     ______________     ______________     ______________     
 
 # ezbs64
+github
 https://github.com/siriusjbk/ezbs64
+
+version pack
+https://drive.google.com/drive/folders/1Y7gvNdpNJl7LIRB-Axb01sKaPcsviXl6?usp=drive_link
+
 email:siriusjbk@gmail.com
 version:1.1.231106
 
