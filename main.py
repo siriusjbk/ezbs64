@@ -5,7 +5,7 @@
   _/\/\_________     ___/\/\_______     _/\/\____/\/\_     _________/\/\_     _/\/\____/\/\_     _/\/\/\/\/\/\_
  _/\/\/\/\/\/\_     _/\/\/\/\/\/\_     _/\/\/\/\/\___     _/\/\/\/\/\___     ___/\/\/\/\___     _______/\/\___
 ______________     ______________     ______________     ______________     ______________     ______________
-ezbs64 v1.2.231107
+ezbs64 v1.2.231201
 '''
 
 # module
@@ -34,18 +34,20 @@ def execute_command():
     input_entry.delete(0, tk.END)  #reset input
     output.see(tk.END)
 
-    if command == '':
-        str = pyperclip.paste()
-        __decodef__()
-        __copyf__()
-    elif command =='//e':
+    if command =='//e':
         str = pyperclip.paste()
         __encodef__()
+        __copyf__()
+    elif command == '':
+        str = pyperclip.paste()
+        __decodef__()
         __copyf__()
     else:
         str = command
         __encodef__()
         __copyf__()
+
+
 
 #kill key
 def disable_input(event):
@@ -161,7 +163,7 @@ input_entry.bind('<Return>', lambda event: execute_command())  #key binding
 
 # key
 keyboard.add_hotkey('ctrl + c', __keydecodef__)
-keyboard.add_hotkey('ctrl + alt', __decodedetect__)
+keyboard.add_hotkey('ctrl + shift + alt', __decodedetect__)
 
 # print
 output.insert(tk.END,f"엔터 누를시 자동으로 클립보드 데이터 디코드후 복사\n")
